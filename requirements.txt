@@ -1,0 +1,7 @@
+dspy==3.2.1
+datasets==5.0.0
+pandas>=2.2.3,<4
+scikit-learn>=1.6,<2
+matplotlib
+jupyter
+ipykernel

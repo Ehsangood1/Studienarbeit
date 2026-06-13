@@ -1,0 +1,11 @@
+Parameter,Value
+Model,llama3.2:3b
+Model runtime,Ollama local runtime
+Dataset,SST-2 from GLUE
+Evaluation split,Validation subset
+Evaluation examples,30
+Optimization examples,20
+Balanced optimization examples,20
+Primary metric,Accuracy
+Additional metrics,"Precision, recall, F1-score"
+Random seed,42

@@ -1,0 +1,31 @@
+sentence,gold,prediction,correct,approach
+"it gets onto the screen just about as much of the novella as one could reasonably expect , and is engrossing and moving in its own right . ",positive,positive,True,Manual baseline prompt
+my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor . ,positive,positive,True,Manual baseline prompt
+"for the most part , director anne-sophie birot 's first feature is a sensitive , extraordinarily well-acted drama . ",positive,positive,True,Manual baseline prompt
+cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . ,positive,positive,True,Manual baseline prompt
+"charles ' entertaining film chronicles seinfeld 's return to stand-up comedy after the wrap of his legendary sitcom , alongside wannabe comic adams ' attempts to get his shot at the big time . ",positive,negative,False,Manual baseline prompt
+and that leaves a hole in the center of the salton sea . ,negative,negative,True,Manual baseline prompt
+the film tunes into a grief that could lead a man across centuries . ,positive,negative,False,Manual baseline prompt
+or doing last year 's taxes with your ex-wife . ,negative,negative,True,Manual baseline prompt
+"the weight of the piece , the unerring professionalism of the chilly production , and the fascination embedded in the lurid topic prove recommendation enough . ",positive,positive,True,Manual baseline prompt
+too much of it feels unfocused and underdeveloped . ,negative,negative,True,Manual baseline prompt
+the affectionate loopiness that once seemed congenital to demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects . ,negative,negative,True,Manual baseline prompt
+"you 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear . ",positive,negative,False,Manual baseline prompt
+a movie with a real anarchic flair . ,positive,positive,True,Manual baseline prompt
+fresnadillo 's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that wo n't go away . ,positive,negative,False,Manual baseline prompt
+"aside from minor tinkering , this is the same movie you probably loved in 1994 , except that it looks even better . ",positive,positive,True,Manual baseline prompt
+an unclassifiably awful study in self - and audience-abuse . ,negative,negative,True,Manual baseline prompt
+a beguiling splash of pastel colors and prankish comedy from disney . ,positive,positive,True,Manual baseline prompt
+sam mendes has become valedictorian at the school for soft landings and easy ways out . ,negative,negative,True,Manual baseline prompt
+true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . ,positive,negative,False,Manual baseline prompt
+"his comedy premises are often hackneyed or just plain crude , calculated to provoke shocked laughter , without following up on a deeper level . ",negative,negative,True,Manual baseline prompt
+it treats women like idiots . ,negative,negative,True,Manual baseline prompt
+the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . ,positive,positive,True,Manual baseline prompt
+"nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",negative,negative,True,Manual baseline prompt
+"the last 20 minutes are somewhat redeeming , but most of the movie is the same teenage american road-trip drek we 've seen before - only this time you have to read the fart jokes ",negative,negative,True,Manual baseline prompt
+it 's too bad that the helping hand he uses to stir his ingredients is also a heavy one . ,negative,negative,True,Manual baseline prompt
+"the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take . ",negative,negative,True,Manual baseline prompt
+"in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest . ",negative,negative,True,Manual baseline prompt
+"not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",positive,negative,False,Manual baseline prompt
+"samira makhmalbaf 's new film blackboards is much like the ethos of a stream of consciousness , although , it 's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal ",negative,negative,True,Manual baseline prompt
+no screen fantasy-adventure in recent memory has the showmanship of clones ' last 45 minutes . ,positive,negative,False,Manual baseline prompt

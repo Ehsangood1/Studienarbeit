@@ -1,0 +1,31 @@
+sentence,gold,manual_prediction,manual_correct,dspy_unoptimized_prediction,dspy_unoptimized_correct,dspy_optimized_prediction,dspy_optimized_correct,dspy_optimized_balanced_prediction,dspy_optimized_balanced_correct
+"it gets onto the screen just about as much of the novella as one could reasonably expect , and is engrossing and moving in its own right . ",positive,positive,True,positive,True,positive,True,positive,True
+my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor . ,positive,positive,True,positive,True,positive,True,positive,True
+"for the most part , director anne-sophie birot 's first feature is a sensitive , extraordinarily well-acted drama . ",positive,positive,True,positive,True,positive,True,positive,True
+cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . ,positive,positive,True,positive,True,positive,True,positive,True
+"charles ' entertaining film chronicles seinfeld 's return to stand-up comedy after the wrap of his legendary sitcom , alongside wannabe comic adams ' attempts to get his shot at the big time . ",positive,negative,False,positive,True,negative,False,negative,False
+and that leaves a hole in the center of the salton sea . ,negative,negative,True,negative,True,negative,True,negative,True
+the film tunes into a grief that could lead a man across centuries . ,positive,negative,False,negative,False,negative,False,negative,False
+or doing last year 's taxes with your ex-wife . ,negative,negative,True,negative,True,negative,True,negative,True
+"the weight of the piece , the unerring professionalism of the chilly production , and the fascination embedded in the lurid topic prove recommendation enough . ",positive,positive,True,positive,True,positive,True,positive,True
+too much of it feels unfocused and underdeveloped . ,negative,negative,True,negative,True,negative,True,negative,True
+the affectionate loopiness that once seemed congenital to demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects . ,negative,negative,True,negative,True,negative,True,negative,True
+"you 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear . ",positive,negative,False,negative,False,negative,False,negative,False
+a movie with a real anarchic flair . ,positive,positive,True,positive,True,negative,False,positive,True
+fresnadillo 's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that wo n't go away . ,positive,negative,False,negative,False,negative,False,negative,False
+"aside from minor tinkering , this is the same movie you probably loved in 1994 , except that it looks even better . ",positive,positive,True,positive,True,negative,False,negative,False
+an unclassifiably awful study in self - and audience-abuse . ,negative,negative,True,negative,True,negative,True,negative,True
+a beguiling splash of pastel colors and prankish comedy from disney . ,positive,positive,True,positive,True,negative,False,positive,True
+sam mendes has become valedictorian at the school for soft landings and easy ways out . ,negative,negative,True,negative,True,negative,True,negative,True
+true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . ,positive,negative,False,negative,False,negative,False,negative,False
+"his comedy premises are often hackneyed or just plain crude , calculated to provoke shocked laughter , without following up on a deeper level . ",negative,negative,True,negative,True,negative,True,negative,True
+it treats women like idiots . ,negative,negative,True,negative,True,negative,True,negative,True
+the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . ,positive,positive,True,positive,True,positive,True,positive,True
+"nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",negative,negative,True,negative,True,negative,True,negative,True
+"the last 20 minutes are somewhat redeeming , but most of the movie is the same teenage american road-trip drek we 've seen before - only this time you have to read the fart jokes ",negative,negative,True,negative,True,negative,True,negative,True
+it 's too bad that the helping hand he uses to stir his ingredients is also a heavy one . ,negative,negative,True,negative,True,negative,True,negative,True
+"the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take . ",negative,negative,True,negative,True,negative,True,negative,True
+"in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest . ",negative,negative,True,negative,True,negative,True,negative,True
+"not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",positive,negative,False,negative,False,negative,False,negative,False
+"samira makhmalbaf 's new film blackboards is much like the ethos of a stream of consciousness , although , it 's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal ",negative,negative,True,negative,True,negative,True,negative,True
+no screen fantasy-adventure in recent memory has the showmanship of clones ' last 45 minutes . ,positive,negative,False,positive,True,negative,False,negative,False
