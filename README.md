@@ -1,27 +1,32 @@
 # DSPy SST-2 Sentiment Classification Experiment
 
-This repository contains the implementation for the thesis project **Auto-Optimize LLMs: Evaluating a DSPy-Based Pipeline for Systematic Prompt Optimization on a Selected NLP Task**.
+This repository contains the implementation for the scientific work **Auto-Optimize LLMs: Evaluating a DSPy-Based Pipeline for Systematic Prompt Optimization on a Selected NLP Task**.
 
-The experiment compares a manually designed baseline prompt with DSPy-based approaches on the SST-2 sentiment classification task from the GLUE benchmark.
+The experiment compares a manually designed baseline prompt with DSPy-based sentiment classification approaches on the SST-2 sentiment classification task from the GLUE benchmark. The language models are executed locally through Ollama.
 
 ## Overview
 
-The experiment evaluates four approaches:
+The final experiment evaluates three approaches:
 
 1. **Manual baseline prompt**
 2. **DSPy unoptimized program**
-3. **DSPy optimized program** using `BootstrapFewShot`
-4. **DSPy optimized balanced program** using balanced optimization examples
+3. **DSPy optimized balanced program** using `BootstrapFewShot` and balanced optimization examples
 
-The language model is executed locally with **Ollama** using:
+The final experiment uses three local Ollama models:
 
 ```text
 llama3.2:3b
+gemma3:4b
+phi4-mini:3.8b
 ```
 
-The main evaluation uses a fixed subset of **30 SST-2 validation examples**. The small evaluation size is intentional because the experiment was executed with a local model.
+The main evaluation uses a fixed subset of **100 SST-2 validation examples**. The evaluation subset is selected with a fixed random seed to support reproducibility.
 
-## Repository structure
+## Model Selection Note
+
+During development, additional local models were considered and tested. The model `qwen3:4b` was tested, but it produced reasoning-heavy outputs and timeout problems in the local Ollama setup. Gemma 4 variants were also considered, but they were too heavy or unstable for the available hardware. Therefore, the final evaluation uses the three models listed above.
+
+## Repository Structure
 
 ```text
 implementation/
@@ -30,27 +35,31 @@ implementation/
 ├── README.md
 ├── .gitignore
 └── results/
-    ├── final_30/
-    │   ├── accuracy_results_30_extended_labeled.png
-    │   ├── comparison_30_extended.csv
-    │   ├── dspy_optimized_balanced_results_30.csv
-    │   ├── dspy_optimized_results_30.csv
-    │   ├── dspy_unoptimized_results_30.csv
-    │   ├── experiment_config.csv
-    │   ├── manual_baseline_results_30.csv
-    │   ├── summary_results_30.csv
-    │   └── summary_results_30_extended.csv
-    └── pilot_10/
-        ├── dspy_optimized_results_10.csv
-        ├── dspy_unoptimized_results_10.csv
-        ├── manual_baseline_results_10.csv
-        ├── pilot_accuracy_results_10.png
-        └── summary_results_10.csv
+    └── final_100/
+        ├── accuracy_all_models_labeled.png
+        ├── classification_reports_all_models.csv
+        ├── experiment_config.csv
+        ├── summary_all_models.csv
+        ├── llama3_2_3b/
+        │   ├── comparison_results.csv
+        │   ├── dspy_optimized_balanced_results.csv
+        │   ├── dspy_unoptimized_results.csv
+        │   └── manual_baseline_results.csv
+        ├── gemma3_4b/
+        │   ├── comparison_results.csv
+        │   ├── dspy_optimized_balanced_results.csv
+        │   ├── dspy_unoptimized_results.csv
+        │   └── manual_baseline_results.csv
+        └── phi4-mini_3_8b/
+            ├── comparison_results.csv
+            ├── dspy_optimized_balanced_results.csv
+            ├── dspy_unoptimized_results.csv
+            └── manual_baseline_results.csv
 ```
 
 ## Setup and Installation
 
-This project was implemented with Python and a local language model runtime. The experiment uses the `llama3.2:3b` model through Ollama and does not require a paid cloud API key.
+This project was implemented with Python and a local language model runtime. The experiment uses Ollama and does not require a paid cloud API key.
 
 ### 1. Install Ollama
 
@@ -60,22 +69,30 @@ Download and install Ollama from:
 https://ollama.com/download
 ```
 
-After installation, open PowerShell and download the model:
+After installation, open PowerShell and download the required models:
 
 ```powershell
 ollama pull llama3.2:3b
+ollama pull gemma3:4b
+ollama pull phi4-mini:3.8b
 ```
 
-To test whether the model works, run:
+To check whether the models are available, run:
+
+```powershell
+ollama list
+```
+
+To test one model manually, run:
 
 ```powershell
 ollama run llama3.2:3b
 ```
 
-Then enter a short test prompt, for example:
+Then enter a short test prompt:
 
 ```text
-Classify the sentiment as positive or negative: This movie was wonderful.
+Classify the sentiment as positive or negative: This movie was wonderful. Return only one word.
 ```
 
 The model should return a positive sentiment answer.
@@ -91,6 +108,13 @@ python -m venv .venv
 Activate the environment:
 
 ```powershell
+.\.venv\Scripts\activate
+```
+
+If PowerShell blocks activation, run:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\activate
 ```
 
@@ -124,64 +148,79 @@ baseline_vs_dspy_sst2.ipynb
 
 Select the Python kernel from the local `.venv` environment. Then run the notebook cells from top to bottom.
 
-### 5. Result Files
-
-The experiment stores its result files in:
+The main experiment cell evaluates:
 
 ```text
-results/final_30/
+3 models × 3 approaches × 100 examples
 ```
 
-The pilot test results are stored in:
+Therefore, the final evaluation can take a long time on local hardware.
+
+## Result Files
+
+The final experiment stores its result files in:
 
 ```text
-results/pilot_10/
+results/final_100/
 ```
 
 The main result summary is stored in:
 
 ```text
-results/final_30/summary_results_30_extended.csv
+results/final_100/summary_all_models.csv
+```
+
+The classification reports are stored in:
+
+```text
+results/final_100/classification_reports_all_models.csv
+```
+
+The experiment configuration is stored in:
+
+```text
+results/final_100/experiment_config.csv
 ```
 
 The final accuracy chart is stored in:
 
 ```text
-results/final_30/accuracy_results_30_extended_labeled.png
+results/final_100/accuracy_all_models_labeled.png
 ```
 
-### Important Note
+For each model, the repository also stores separate CSV files for the manual baseline, the unoptimized DSPy program, the optimized balanced DSPy program, and a combined comparison table.
 
-The `.venv` folder is not included in the repository because it is machine-specific. The environment can be recreated using `requirements.txt`.
+## Main Result
 
-## Main result
+The final 100-example evaluation produced the following accuracy values:
 
-The final 30-example evaluation produced the following accuracy values:
+| Model          | Approach                | Accuracy | Number of examples |
+| -------------- | ----------------------- | -------: | -----------------: |
+| llama3.2:3b    | Manual baseline         |     0.78 |                100 |
+| llama3.2:3b    | DSPy unoptimized        |     0.87 |                100 |
+| llama3.2:3b    | DSPy optimized balanced |     0.71 |                100 |
+| gemma3:4b      | Manual baseline         |     0.85 |                100 |
+| gemma3:4b      | DSPy unoptimized        |     0.89 |                100 |
+| gemma3:4b      | DSPy optimized balanced |     0.88 |                100 |
+| phi4-mini:3.8b | Manual baseline         |     0.83 |                100 |
+| phi4-mini:3.8b | DSPy unoptimized        |     0.81 |                100 |
+| phi4-mini:3.8b | DSPy optimized balanced |     0.90 |                100 |
 
-| Approach | Accuracy | Number of examples |
-|---|---:|---:|
-| Manual baseline prompt | 0.7667 | 30 |
-| DSPy unoptimized program | 0.8333 | 30 |
-| DSPy optimized program | 0.6667 | 30 |
-| DSPy optimized balanced program | 0.7333 | 30 |
+The results show that the DSPy-based approaches do not improve performance uniformly across all models. The unoptimized DSPy program performs best for `llama3.2:3b` and `gemma3:4b`, while the optimized balanced DSPy program performs best for `phi4-mini:3.8b`. This model-dependent behavior is an important finding of the experiment.
 
-The unoptimized DSPy program achieved the highest accuracy in this local setup. The optimized variants did not automatically improve performance, which is discussed as an important finding in the thesis.
+## Runtime Observations
 
-## Result files
+The experiment was executed locally with Ollama. Runtime depends on the selected model, hardware, Ollama runtime behavior, and the number of generated tokens.
 
-The main result files are stored in:
+The measured runtimes for the final evaluation are included in:
 
 ```text
-results/final_30/
+results/final_100/summary_all_models.csv
 ```
 
-The pilot smoke-test results are stored in:
+The local runtime setup makes the experiment reproducible without a paid cloud API, but it also limits the number of models and examples that can be evaluated practically.
 
-```text
-results/pilot_10/
-```
-
-## Reproducibility notes
+## Reproducibility Notes
 
 The experiment uses a fixed random seed:
 
@@ -189,4 +228,22 @@ The experiment uses a fixed random seed:
 42
 ```
 
-The model is local, so results may depend on the Ollama version, hardware, and model runtime behavior. The evaluation size is limited because local inference with `llama3.2:3b` can be slow.
+The dataset subset, optimization examples, and evaluation examples are selected deterministically. However, local language model behavior can still depend on the Ollama version, model quantization, available hardware, and runtime settings.
+
+The `.venv` folder is not included in the repository because it is machine-specific. The environment can be recreated using:
+
+```powershell
+pip install -r requirements.txt
+```
+
+## Important Note
+
+The local Python virtual environment is intentionally excluded from GitHub. The `.gitignore` file should include:
+
+```text
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+```
