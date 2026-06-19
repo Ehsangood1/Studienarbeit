@@ -1,5 +1,0 @@
-approach,accuracy,num_examples
-Manual baseline prompt,0.7666666666666667,30
-DSPy unoptimized program,0.8333333333333334,30
-DSPy optimized program,0.6666666666666666,30
-DSPy optimized balanced program,0.7333333333333333,30

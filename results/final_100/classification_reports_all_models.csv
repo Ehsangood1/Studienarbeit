@@ -1,0 +1,55 @@
+model,approach,metric_group,precision,recall,f1-score,support,value
+llama3.2:3b,Manual baseline,negative,0.6666666666666666,0.9767441860465116,0.7924528301886793,43.0,
+llama3.2:3b,Manual baseline,positive,0.972972972972973,0.631578947368421,0.7659574468085106,57.0,
+llama3.2:3b,Manual baseline,unknown,0.0,0.0,0.0,0.0,
+llama3.2:3b,Manual baseline,accuracy,,,,,0.78
+llama3.2:3b,Manual baseline,macro avg,0.5465465465465466,0.5361077111383109,0.5194700923323966,100.0,
+llama3.2:3b,Manual baseline,weighted avg,0.8412612612612612,0.78,0.7773504616619832,100.0,
+llama3.2:3b,DSPy unoptimized,negative,0.7777777777777778,0.9767441860465116,0.865979381443299,43.0,
+llama3.2:3b,DSPy unoptimized,positive,0.9782608695652174,0.7894736842105263,0.8737864077669902,57.0,
+llama3.2:3b,DSPy unoptimized,unknown,0.0,0.0,0.0,0.0,
+llama3.2:3b,DSPy unoptimized,accuracy,,,,,0.87
+llama3.2:3b,DSPy unoptimized,macro avg,0.5853462157809984,0.5887392900856793,0.5799219297367632,100.0,
+llama3.2:3b,DSPy unoptimized,weighted avg,0.8920531400966183,0.87,0.8704293864478029,100.0,
+llama3.2:3b,DSPy optimized balanced,negative,0.5972222222222222,1.0,0.7478260869565218,43.0,
+llama3.2:3b,DSPy optimized balanced,positive,1.0,0.49122807017543857,0.6588235294117647,57.0,
+llama3.2:3b,DSPy optimized balanced,unknown,0.0,0.0,0.0,0.0,
+llama3.2:3b,DSPy optimized balanced,accuracy,,,,,0.71
+llama3.2:3b,DSPy optimized balanced,macro avg,0.5324074074074074,0.49707602339181284,0.46888320545609546,100.0,
+llama3.2:3b,DSPy optimized balanced,weighted avg,0.8268055555555556,0.71,0.6970946291560103,100.0,
+gemma3:4b,Manual baseline,negative,0.7916666666666666,0.8837209302325582,0.8351648351648352,43.0,
+gemma3:4b,Manual baseline,positive,0.9038461538461539,0.8245614035087719,0.8623853211009175,57.0,
+gemma3:4b,Manual baseline,unknown,0.0,0.0,0.0,0.0,
+gemma3:4b,Manual baseline,accuracy,,,,,0.85
+gemma3:4b,Manual baseline,macro avg,0.5651709401709402,0.5694274445804434,0.5658500520885842,100.0,
+gemma3:4b,Manual baseline,weighted avg,0.8556089743589743,0.85,0.8506805121484021,100.0,
+gemma3:4b,DSPy unoptimized,negative,0.8333333333333334,0.9302325581395349,0.8791208791208791,43.0,
+gemma3:4b,DSPy unoptimized,positive,0.9423076923076923,0.8596491228070176,0.8990825688073395,57.0,
+gemma3:4b,DSPy unoptimized,unknown,0.0,0.0,0.0,0.0,
+gemma3:4b,DSPy unoptimized,accuracy,,,,,0.89
+gemma3:4b,DSPy unoptimized,macro avg,0.5918803418803419,0.5966272269821841,0.5927344826427395,100.0,
+gemma3:4b,DSPy unoptimized,weighted avg,0.8954487179487179,0.89,0.8904990422421616,100.0,
+gemma3:4b,DSPy optimized balanced,negative,0.8604651162790697,0.8604651162790697,0.8604651162790697,43.0,
+gemma3:4b,DSPy optimized balanced,positive,0.9272727272727272,0.8947368421052632,0.9107142857142857,57.0,
+gemma3:4b,DSPy optimized balanced,unknown,0.0,0.0,0.0,0.0,
+gemma3:4b,DSPy optimized balanced,accuracy,,,,,0.88
+gemma3:4b,DSPy optimized balanced,macro avg,0.5959126145172656,0.5850673194614443,0.5903931339977851,100.0,
+gemma3:4b,DSPy optimized balanced,weighted avg,0.8985454545454544,0.88,0.8891071428571428,100.0,
+phi4-mini:3.8b,Manual baseline,negative,0.7708333333333334,0.8604651162790697,0.8131868131868132,43.0,
+phi4-mini:3.8b,Manual baseline,positive,0.8846153846153846,0.8070175438596491,0.8440366972477065,57.0,
+phi4-mini:3.8b,Manual baseline,unknown,0.0,0.0,0.0,0.0,
+phi4-mini:3.8b,Manual baseline,accuracy,,,,,0.83
+phi4-mini:3.8b,Manual baseline,macro avg,0.5518162393162394,0.555827553379573,0.5524078368115065,100.0,
+phi4-mini:3.8b,Manual baseline,weighted avg,0.8356891025641024,0.83,0.8307712471015223,100.0,
+phi4-mini:3.8b,DSPy unoptimized,negative,0.7307692307692307,0.8837209302325582,0.8,43.0,
+phi4-mini:3.8b,DSPy unoptimized,positive,0.9148936170212766,0.7543859649122807,0.8269230769230769,57.0,
+phi4-mini:3.8b,DSPy unoptimized,unknown,0.0,0.0,0.0,0.0,
+phi4-mini:3.8b,DSPy unoptimized,accuracy,,,,,0.81
+phi4-mini:3.8b,DSPy unoptimized,macro avg,0.5485542825968358,0.5460356317149463,0.5423076923076923,100.0,
+phi4-mini:3.8b,DSPy unoptimized,weighted avg,0.8357201309328969,0.81,0.8153461538461538,100.0,
+phi4-mini:3.8b,DSPy optimized balanced,negative,0.851063829787234,0.9302325581395349,0.8888888888888888,43.0,
+phi4-mini:3.8b,DSPy optimized balanced,positive,0.9615384615384616,0.8771929824561403,0.9174311926605505,57.0,
+phi4-mini:3.8b,DSPy optimized balanced,unknown,0.0,0.0,0.0,0.0,
+phi4-mini:3.8b,DSPy optimized balanced,accuracy,,,,,0.9
+phi4-mini:3.8b,DSPy optimized balanced,macro avg,0.6042007637752319,0.6024751801985584,0.6021066938498131,100.0,
+phi4-mini:3.8b,DSPy optimized balanced,weighted avg,0.9140343698854337,0.9,0.905158002038736,100.0,

@@ -1,0 +1,101 @@
+index,model,approach,sentence,gold,prediction,correct,raw_response
+1,llama3.2:3b,DSPy optimized balanced,"it gets onto the screen just about as much of the novella as one could reasonably expect , and is engrossing and moving in its own right . ",positive,positive,True,positive
+2,llama3.2:3b,DSPy optimized balanced,my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor . ,positive,positive,True,positive
+3,llama3.2:3b,DSPy optimized balanced,"for the most part , director anne-sophie birot 's first feature is a sensitive , extraordinarily well-acted drama . ",positive,positive,True,positive
+4,llama3.2:3b,DSPy optimized balanced,cq 's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors . ,positive,positive,True,positive
+5,llama3.2:3b,DSPy optimized balanced,"charles ' entertaining film chronicles seinfeld 's return to stand-up comedy after the wrap of his legendary sitcom , alongside wannabe comic adams ' attempts to get his shot at the big time . ",positive,negative,False,negative
+6,llama3.2:3b,DSPy optimized balanced,and that leaves a hole in the center of the salton sea . ,negative,negative,True,negative
+7,llama3.2:3b,DSPy optimized balanced,the film tunes into a grief that could lead a man across centuries . ,positive,negative,False,negative
+8,llama3.2:3b,DSPy optimized balanced,or doing last year 's taxes with your ex-wife . ,negative,negative,True,negative
+9,llama3.2:3b,DSPy optimized balanced,"the weight of the piece , the unerring professionalism of the chilly production , and the fascination embedded in the lurid topic prove recommendation enough . ",positive,positive,True,positive
+10,llama3.2:3b,DSPy optimized balanced,too much of it feels unfocused and underdeveloped . ,negative,negative,True,negative
+11,llama3.2:3b,DSPy optimized balanced,the affectionate loopiness that once seemed congenital to demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects . ,negative,negative,True,negative
+12,llama3.2:3b,DSPy optimized balanced,"you 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear . ",positive,negative,False,negative
+13,llama3.2:3b,DSPy optimized balanced,a movie with a real anarchic flair . ,positive,positive,True,positive
+14,llama3.2:3b,DSPy optimized balanced,fresnadillo 's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that wo n't go away . ,positive,negative,False,negative
+15,llama3.2:3b,DSPy optimized balanced,"aside from minor tinkering , this is the same movie you probably loved in 1994 , except that it looks even better . ",positive,negative,False,negative
+16,llama3.2:3b,DSPy optimized balanced,an unclassifiably awful study in self - and audience-abuse . ,negative,negative,True,negative
+17,llama3.2:3b,DSPy optimized balanced,a beguiling splash of pastel colors and prankish comedy from disney . ,positive,positive,True,positive
+18,llama3.2:3b,DSPy optimized balanced,sam mendes has become valedictorian at the school for soft landings and easy ways out . ,negative,negative,True,negative
+19,llama3.2:3b,DSPy optimized balanced,true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable . ,positive,negative,False,negative
+20,llama3.2:3b,DSPy optimized balanced,"his comedy premises are often hackneyed or just plain crude , calculated to provoke shocked laughter , without following up on a deeper level . ",negative,negative,True,negative
+21,llama3.2:3b,DSPy optimized balanced,it treats women like idiots . ,negative,negative,True,negative
+22,llama3.2:3b,DSPy optimized balanced,the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy . ,positive,positive,True,positive
+23,llama3.2:3b,DSPy optimized balanced,"nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",negative,negative,True,negative
+24,llama3.2:3b,DSPy optimized balanced,"the last 20 minutes are somewhat redeeming , but most of the movie is the same teenage american road-trip drek we 've seen before - only this time you have to read the fart jokes ",negative,negative,True,negative
+25,llama3.2:3b,DSPy optimized balanced,it 's too bad that the helping hand he uses to stir his ingredients is also a heavy one . ,negative,negative,True,negative
+26,llama3.2:3b,DSPy optimized balanced,"the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take . ",negative,negative,True,negative
+27,llama3.2:3b,DSPy optimized balanced,"in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest . ",negative,negative,True,negative
+28,llama3.2:3b,DSPy optimized balanced,"not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",positive,negative,False,negative
+29,llama3.2:3b,DSPy optimized balanced,"samira makhmalbaf 's new film blackboards is much like the ethos of a stream of consciousness , although , it 's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal ",negative,negative,True,negative
+30,llama3.2:3b,DSPy optimized balanced,no screen fantasy-adventure in recent memory has the showmanship of clones ' last 45 minutes . ,positive,negative,False,negative
+31,llama3.2:3b,DSPy optimized balanced,"more romantic , more emotional and ultimately more satisfying than the teary-eyed original . ",positive,negative,False,negative
+32,llama3.2:3b,DSPy optimized balanced,a solid examination of the male midlife crisis . ,positive,negative,False,negative
+33,llama3.2:3b,DSPy optimized balanced,filmmakers who can deftly change moods are treasures and even marvels . ,positive,positive,True,positive
+34,llama3.2:3b,DSPy optimized balanced,part low rent godfather . ,negative,negative,True,negative
+35,llama3.2:3b,DSPy optimized balanced,"nothing 's at stake , just a twisty double-cross you can smell a mile away -- still , the derivative nine queens is lots of fun . ",positive,negative,False,negative
+36,llama3.2:3b,DSPy optimized balanced,i 'll bet the video game is a lot more fun than the film . ,negative,negative,True,negative
+37,llama3.2:3b,DSPy optimized balanced,"bennett 's naturalistic performance speaks volumes more truth than any ` reality ' show , and anybody contemplating their own drastic life changes should watch some body first . ",positive,negative,False,negative
+38,llama3.2:3b,DSPy optimized balanced,"a cartoon that 's truly cinematic in scope , and a story that 's compelling and heartfelt -- even if the heart belongs to a big , four-legged herbivore . ",positive,positive,True,positive
+39,llama3.2:3b,DSPy optimized balanced,late marriage 's stiffness is unlikely to demonstrate the emotional clout to sweep u.s. viewers off their feet . ,negative,negative,True,negative
+40,llama3.2:3b,DSPy optimized balanced,"may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",positive,positive,True,positive
+41,llama3.2:3b,DSPy optimized balanced,"though it 's become almost redundant to say so , major kudos go to leigh for actually casting people who look working-class . ",positive,positive,True,positive
+42,llama3.2:3b,DSPy optimized balanced,chabrol has taken promising material for a black comedy and turned it instead into a somber chamber drama . ,negative,negative,True,negative
+43,llama3.2:3b,DSPy optimized balanced,"the longer the movie goes , the worse it gets , but it 's actually pretty good in the first few minutes . ",negative,negative,True,negative
+44,llama3.2:3b,DSPy optimized balanced,"morton uses her face and her body language to bring us morvern 's soul , even though the character is almost completely deadpan . ",positive,negative,False,negative
+45,llama3.2:3b,DSPy optimized balanced,"( næs ) directed the stage version of elling , and gets fine performances from his two leads who originated the characters on stage . ",positive,negative,False,negative
+46,llama3.2:3b,DSPy optimized balanced,a subject like this should inspire reaction in its audience ; the pianist does not . ,negative,negative,True,negative
+47,llama3.2:3b,DSPy optimized balanced,it confirms fincher 's status as a film maker who artfully bends technical know-how to the service of psychological insight . ,positive,positive,True,positive
+48,llama3.2:3b,DSPy optimized balanced,"a densely constructed , highly referential film , and an audacious return to form that can comfortably sit among jean-luc godard 's finest work . ",positive,positive,True,positive
+49,llama3.2:3b,DSPy optimized balanced,"( director ) o'fallon manages to put some lovely pictures up on the big screen , but his skill at telling a story -- he also contributed to the screenplay -- falls short . ",negative,negative,True,negative
+50,llama3.2:3b,DSPy optimized balanced,"what the film lacks in general focus it makes up for in compassion , as corcuera manages to find the seeds of hope in the form of collective action . ",positive,positive,True,positive
+51,llama3.2:3b,DSPy optimized balanced,"with rabbit-proof fence , noyce has tailored an epic tale into a lean , economical movie . ",positive,negative,False,negative
+52,llama3.2:3b,DSPy optimized balanced,"a tender , heartfelt family drama . ",positive,positive,True,positive
+53,llama3.2:3b,DSPy optimized balanced,"the film is quiet , threatening and unforgettable . ",positive,negative,False,negative
+54,llama3.2:3b,DSPy optimized balanced,"as surreal as a dream and as detailed as a photograph , as visually dexterous as it is at times imaginatively overwhelming . ",positive,positive,True,positive
+55,llama3.2:3b,DSPy optimized balanced,"this is an egotistical endeavor from the daughter of horror director dario argento ( a producer here ) , but her raw performance and utter fearlessness make it strangely magnetic . ",positive,negative,False,negative
+56,llama3.2:3b,DSPy optimized balanced,"while the ideas about techno-saturation are far from novel , they 're presented with a wry dark humor . ",positive,negative,False,negative
+57,llama3.2:3b,DSPy optimized balanced,"schaeffer has to find some hook on which to hang his persistently useless movies , and it might as well be the resuscitation of the middle-aged character . ",negative,negative,True,negative
+58,llama3.2:3b,DSPy optimized balanced,"seldahl 's barbara is a precise and moving portrait of someone whose world is turned upside down , first by passion and then by illness . ",positive,negative,False,negative
+59,llama3.2:3b,DSPy optimized balanced,not since japanese filmmaker akira kurosawa 's ran have the savagery of combat and the specter of death been visualized with such operatic grandeur . ,positive,negative,False,negative
+60,llama3.2:3b,DSPy optimized balanced,"if you 're hard up for raunchy college humor , this is your ticket right here . ",positive,negative,False,negative
+61,llama3.2:3b,DSPy optimized balanced,"pumpkin means to be an outrageous dark satire on fraternity life , but its ambitions far exceed the abilities of writer adam larson broder and his co-director , tony r. abrams , in their feature debut . ",negative,negative,True,negative
+62,llama3.2:3b,DSPy optimized balanced,"mcconaughey 's fun to watch , the dragons are okay , not much fire in the script . ",positive,negative,False,negative
+63,llama3.2:3b,DSPy optimized balanced,"maud and roland 's search for an unknowable past makes for a haunting literary detective story , but labute pulls off a neater trick in possession : he makes language sexy . ",positive,positive,True,positive
+64,llama3.2:3b,DSPy optimized balanced,"dull , lifeless , and amateurishly assembled . ",negative,negative,True,negative
+65,llama3.2:3b,DSPy optimized balanced,"complete lack of originality , cleverness or even visible effort ",negative,negative,True,negative
+66,llama3.2:3b,DSPy optimized balanced,"while locals will get a kick out of spotting cleveland sites , the rest of the world will enjoy a fast-paced comedy with quirks that might make the award-winning coen brothers envious . ",positive,negative,False,negative
+67,llama3.2:3b,DSPy optimized balanced,"at its worst , it implodes in a series of very bad special effects . ",negative,negative,True,negative
+68,llama3.2:3b,DSPy optimized balanced,"a difficult , absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear . ",positive,positive,True,positive
+69,llama3.2:3b,DSPy optimized balanced,almost gags on its own gore . ,negative,negative,True,negative
+70,llama3.2:3b,DSPy optimized balanced,the iditarod lasts for days - this just felt like it did . ,negative,negative,True,negative
+71,llama3.2:3b,DSPy optimized balanced,one of the smartest takes on singles culture i 've seen in a long time . ,positive,positive,True,positive
+72,llama3.2:3b,DSPy optimized balanced,"offers very little genuine romance and even fewer laughs ... a sad sitcom of a movie , largely devoid of charm . ",negative,negative,True,negative
+73,llama3.2:3b,DSPy optimized balanced,k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension . ,negative,negative,True,negative
+74,llama3.2:3b,DSPy optimized balanced,allows us to hope that nolan is poised to embark a major career as a commercial yet inventive filmmaker . ,positive,positive,True,positive
+75,llama3.2:3b,DSPy optimized balanced,"vera 's three actors -- mollà , gil and bardem -- excel in insightful , empathetic performances . ",positive,positive,True,positive
+76,llama3.2:3b,DSPy optimized balanced,"there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",positive,positive,True,positive
+77,llama3.2:3b,DSPy optimized balanced,"you really have to wonder how on earth anyone , anywhere could have thought they 'd make audiences guffaw with a script as utterly diabolical as this . ",negative,negative,True,negative
+78,llama3.2:3b,DSPy optimized balanced,a solid film ... but more conscientious than it is truly stirring . ,positive,negative,False,negative
+79,llama3.2:3b,DSPy optimized balanced,will amuse and provoke adventurous adults in specialty venues . ,positive,negative,False,negative
+80,llama3.2:3b,DSPy optimized balanced,brilliantly explores the conflict between following one 's heart and following the demands of tradition . ,positive,positive,True,positive
+81,llama3.2:3b,DSPy optimized balanced,"at the very least , if you do n't know anything about derrida when you walk into the theater , you wo n't know much more when you leave . ",negative,negative,True,negative
+82,llama3.2:3b,DSPy optimized balanced,"for this reason and this reason only -- the power of its own steadfast , hoity-toity convictions -- chelsea walls deserves a medal . ",positive,negative,False,negative
+83,llama3.2:3b,DSPy optimized balanced,the problem with this film is that it lacks focus . ,negative,negative,True,negative
+84,llama3.2:3b,DSPy optimized balanced,"unfortunately , it 's not silly fun unless you enjoy really bad movies . ",negative,negative,True,negative
+85,llama3.2:3b,DSPy optimized balanced,"the film flat lines when it should peak and is more missed opportunity and trifle than dark , decadent truffle . ",negative,negative,True,negative
+86,llama3.2:3b,DSPy optimized balanced,"if you 've ever entertained the notion of doing what the title of this film implies , what sex with strangers actually shows may put you off the idea forever . ",negative,negative,True,negative
+87,llama3.2:3b,DSPy optimized balanced,a sometimes tedious film . ,negative,negative,True,negative
+88,llama3.2:3b,DSPy optimized balanced,it 's a beautiful madness . ,positive,positive,True,positive
+89,llama3.2:3b,DSPy optimized balanced,"it moves quickly , adroitly , and without fuss ; it does n't give you time to reflect on the inanity -- and the cold war datedness -- of its premise . ",positive,negative,False,negative
+90,llama3.2:3b,DSPy optimized balanced,"it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene levy , and reginald veljohnson all in the same movie . ",negative,negative,True,negative
+91,llama3.2:3b,DSPy optimized balanced,a good piece of work more often than not . ,positive,negative,False,negative
+92,llama3.2:3b,DSPy optimized balanced,made with no discernible craft and monstrously sanctimonious in dealing with childhood loss . ,negative,negative,True,negative
+93,llama3.2:3b,DSPy optimized balanced,the film 's performances are thrilling . ,positive,positive,True,positive
+94,llama3.2:3b,DSPy optimized balanced,rarely has leukemia looked so shimmering and benign . ,negative,negative,True,negative
+95,llama3.2:3b,DSPy optimized balanced,i had to look away - this was god awful . ,negative,negative,True,negative
+96,llama3.2:3b,DSPy optimized balanced,"/ but daphne , you 're too buff / fred thinks he 's tough / and velma - wow , you 've lost weight ! ",negative,negative,True,negative
+97,llama3.2:3b,DSPy optimized balanced,"a very long movie , dull in stretches , with entirely too much focus on meal preparation and igloo construction . ",negative,negative,True,negative
+98,llama3.2:3b,DSPy optimized balanced,montias ... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters . ,positive,positive,True,positive
+99,llama3.2:3b,DSPy optimized balanced,"a big , gorgeous , sprawling swashbuckler that delivers its diversions in grand , uncomplicated fashion . ",positive,positive,True,positive
+100,llama3.2:3b,DSPy optimized balanced,it 's hard to imagine alan arkin being better than he is in this performance . ,positive,negative,False,negative

@@ -1,0 +1,12 @@
+parameter,value
+random_seed,42
+evaluation_size,100
+training_size,40
+balanced_optimization_examples,20
+models,"llama3.2:3b, gemma3:4b, phi4-mini:3.8b"
+dataset,SST-2 from GLUE
+evaluation_split,validation
+optimizer,BootstrapFewShot
+optimizer_settings,"max_bootstrapped_demos=4, max_labeled_demos=8, max_rounds=1"
+primary_metric,accuracy
+additional_metrics,"precision, recall, f1-score"

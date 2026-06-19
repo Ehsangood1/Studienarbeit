@@ -1,0 +1,10 @@
+model,approach,accuracy,num_examples,runtime_seconds
+llama3.2:3b,Manual baseline,0.78,100,178.80101561546326
+llama3.2:3b,DSPy unoptimized,0.87,100,1022.9187450408936
+llama3.2:3b,DSPy optimized balanced,0.71,100,532.663072347641
+gemma3:4b,Manual baseline,0.85,100,589.089203119278
+gemma3:4b,DSPy unoptimized,0.89,100,1957.7249603271484
+gemma3:4b,DSPy optimized balanced,0.88,100,1365.5181856155396
+phi4-mini:3.8b,Manual baseline,0.83,100,332.74311995506287
+phi4-mini:3.8b,DSPy unoptimized,0.81,100,696.854165315628
+phi4-mini:3.8b,DSPy optimized balanced,0.9,100,1436.0609273910522
